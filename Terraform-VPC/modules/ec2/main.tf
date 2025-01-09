@@ -70,7 +70,7 @@ resource "aws_instance" "web" {
                   </style>
               </head>
               <body>
-                  <h1>Hello Everyone from Terraform Instance ${count.index + 1}!</h1>
+                  <h1>Hello Everyone from Terraform Instance Using GitHubActions ${count.index + 1}!</h1>
                   <h2>Happy Learning!</h2>
               </body>
               </html>

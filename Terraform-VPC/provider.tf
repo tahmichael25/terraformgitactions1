@@ -6,16 +6,16 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "terraform-remote-backend-s3-save"
+    bucket = "terraform-remote-backend-s3-save2"
     key    = "dev/terraform.tfstate"
-    region = "ap-south-1"
+    region = "us-west-2"
   }
 }
 
 
 provider "aws" {
   # Configuration options
-  region = "ap-south-1"
+  region = "us-west-2"
 }
 
 
