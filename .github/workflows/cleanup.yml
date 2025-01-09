@@ -1,10 +1,10 @@
 name: Terraform Cleanup
 
 on:
-  #workflow_dispatch:
+  workflow_dispatch:
   schedule:
-    #- cron: '0 0 * * *' # Runs every day at midnight, adjust as needed
-    - cron: '59 13 * * *' # Runs every day at 01:59 PM 
+    - cron: '0 0 * * *' # Runs every day at midnight, adjust as needed
+    #- cron: '59 13 * * *' # Runs every day at 01:59 PM 
 
 jobs:
   terraform-cleanup:
